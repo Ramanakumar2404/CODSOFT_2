@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> RK CarBrand</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#models">Models</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Welcome to RK CarBrand</h1>
+        <p>Experience the ultimate driving pleasure</p>
+        <a href="#models" class="btn">Explore Models</a>
+    </section>
+    
+    <section id="models" class="models">
+        <h2>Our Models</h2>
+        <div class="model-container">
+            <div class="model">
+                <img src="https://assets.porsche.com/dwaas-infohub/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/911-GT3/General-Model/General-model_911-GT3.jpg?rev=647dee95c8104da2a49995fa8c1a5f7f&w=1082" alt="Car 1">
+                <h3>Model 1</h3>
+                <p>Porsche 911 GT3 rs</p>
+            </div>
+            <div class="model">
+                <img src="https://s1.cdn.autoevolution.com/images/models/PORSCHE_Cayenne-2023_main.jpg" alt="Car 2">
+                <h3>Model 2</h3>
+                <p>PORSCHE 718 Cayman</p>
+            </div>
+            <div class="model">
+                <img src="https://www.livemint.com/lm-img/img/2024/05/30/600x338/porschr_1717068330125_1717068338949.jpg" alt="Car 3">
+                <h3>Model 3</h3>
+                <p>Porsche 911 carrera.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <h3>High Performance</h3>
+                <p>The Porsche delivers exceptional performance with a range of powerful engines.</p>
+            </div>
+            <div class="feature">
+                <h3>Innovative Technology</h3>
+                <p>Equipped with cutting-edge technology, ensuring a superior driving experience.</p>
+            </div>
+            <div class="feature">
+                <h3>Elegant Design</h3>
+                <p>Known for its elegant and iconic design, both inside and out.</p>
+            </div>
+
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024  RK CarBrand. All rights reserved.</p>
+    </footer>
+</body>
+</html>
